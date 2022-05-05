@@ -18,7 +18,7 @@ gem 'simplecov', require: false, group: :test
 # Use Json Web Token (JWT) for token based authentication
 gem 'jwt'
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt'
 
 
 # Use sqlite3 as the database for Active Record

@@ -1,5 +1,5 @@
 module Api
-  class LikesController < ApplicationController
+  class LikesController < Api::ApplicationController
     def index
       @likes = Like.where(tweet_id: params[:tweet_id])
       render json: @likes, include: ''

@@ -20,7 +20,7 @@ RSpec.describe Types::TweetType do
   let(:variables) { {id: tweet.id} }
 
   let(:tweet) { Tweet.create(content: "abcdef", user_id: user.id) }
-  let(:user) { User.create(username: "test_user", bio: "the bio of the user")}
+  let(:user) { User.create(username: "test_user", bio: "the bio of the user", password: "1234")}
 
 specify do
   expect(subject).to eq(

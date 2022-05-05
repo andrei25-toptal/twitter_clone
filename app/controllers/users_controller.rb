@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
-  http_basic_authenticate_with name: "dhh", password: "secret", except: :index
+  before_action :authenticate_user
+  # http_basic_authenticate_with name: "dhh", password: "secret", except: :index
 
   # GET /users or /users.json
   def index
@@ -66,10 +67,13 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:name, :username, :bio, :email)
+      params.require(:user).permit(:name, :username, :bio, :email, :password, :password_digest)
     end
 
-    def current_user
-      @current_user ||= User.find(session[:user_id])
+    def authenticate_user
+      unless logged_in?
+        flash.alert = "Please log in."
+        redirect_to login_url
+      end
     end
 end

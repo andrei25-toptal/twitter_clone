@@ -1,7 +1,9 @@
 class TweetsController < ApplicationController
+  before_action :authenticate_user
+
   def index
-    # @tweets = Tweet.all
-    @tweets = current_user.tweets.all
+    @tweets = Tweet.all
+    # @tweets = current_user.tweets.all
     render json: @tweets
   end
 
@@ -54,7 +56,10 @@ class TweetsController < ApplicationController
       params.require(:user).permit(:name, :username, :bio, :email)
     end
 
-    def current_user
-      @current_user ||= User.find(session[:user_id])
+    def authenticate_user
+      unless logged_in?
+        flash.alert = "Please log in."
+        redirect_to login_url
+      end
     end
 end

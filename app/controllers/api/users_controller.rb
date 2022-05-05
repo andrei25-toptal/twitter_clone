@@ -1,5 +1,11 @@
 module Api
-  class UsersController < ApplicationController
+  class UsersController < Api::ApplicationController
+    before_action :authorize_request, except: :create
+
+    # def me
+    #   render json: @current_user
+    # end
+
     def index
       @users = User.all
       render json: @users, include: ''
