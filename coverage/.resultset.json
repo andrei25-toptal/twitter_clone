@@ -371,78 +371,6 @@
           null
         ]
       },
-      "/home/andrei/academy/rails/twitter_app/spec/graphql/types/tweet_type_spec.rb": {
-        "lines": [
-          1,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          2,
-          null,
-          2,
-          2,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/types/tweet_type.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/types/user_type.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/home/andrei/academy/rails/twitter_app/spec/models/like_spec.rb": {
         "lines": [
           1,
@@ -956,6 +884,78 @@
           null
         ]
       },
+      "/home/andrei/academy/rails/twitter_app/spec/requests/graphql/types/tweet_type_spec.rb": {
+        "lines": [
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          2,
+          2,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/types/tweet_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/types/user_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/home/andrei/academy/rails/twitter_app/spec/test_spec.rb": {
         "lines": [
           1,
@@ -969,147 +969,6 @@
           1,
           1,
           1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/tweets_schema.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/types/query_type.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/mutation_type.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/create_tweet.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/inputs/tweet_input.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/destroy_tweet.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/update_tweet.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          0,
-          null,
           null,
           null,
           null
@@ -1443,8 +1302,149 @@
           null,
           null
         ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/tweets_schema.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/types/query_type.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/mutation_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/create_tweet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/inputs/tweet_input.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/destroy_tweet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/andrei/academy/rails/twitter_app/app/graphql/mutations/update_tweet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1651793596
+    "timestamp": 1651828526
   }
 }

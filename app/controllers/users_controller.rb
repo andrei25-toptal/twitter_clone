@@ -73,6 +73,7 @@ class UsersController < ApplicationController
     def authenticate_user
       unless logged_in?
         flash.alert = "Please log in."
+        session[:redirected_from] = request.path
         redirect_to login_url
       end
     end
